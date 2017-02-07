@@ -1,4 +1,5 @@
-EGCPI: an evolutionary graph clustering algorithm for protein complex identification.
+EGCPI: an evolutionary graph clustering algorithm for protein complex identification. The software in this repository is developed based on the following article: 
+T. He, and K.C.C. Chan, "Evolutionary Graph Clustering for Protein Complex Identification," IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB), doi:10.1109/TCBB.2016.2642107.
 
 How to use EGCPI to detect protein complexes in the PPI network
 Before running the executable file (EGCPI_v1.0.jar), please prepare the processed PPI network data, and file of configurations, and put them into the same directory where the executable file is.
