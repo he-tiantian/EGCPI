@@ -18,6 +18,6 @@ Identifying Protein complexes
 
 After doulble clicking the .jar file, a simple graphical interface will be shown to the user. All that one needs to do is to click the "start detection" button and wait for the results (this won't take a long time). After the detection is finished, EGCPI will save all the deteced protein complexes int a file which is named as Cluster.txt in default and save all the information on the the execution incuding fitness value, running time, etc into a log file named as log.txt in default. The user may make use them for their own experiments accordingly.
 
-Notice: This software is permitted to use only for research and non-commercial activities. If you have any question, please feel free to contact us via csthe@comp.polyu.edu.hk.
+Notice: This software is permitted to use only for research and non-commercial activities. If you have any question, please feel free to contact us via tiantian.he@outlook.com.
 
 At last, thanks very much for using EGCPI.
