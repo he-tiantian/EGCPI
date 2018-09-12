@@ -1,5 +1,5 @@
 EGCPI: an evolutionary graph clustering algorithm for protein complex identification. The software in this repository is developed based on the following article: 
-T. He, and K.C.C. Chan, "Evolutionary Graph Clustering for Protein Complex Identification," IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB), doi:10.1109/TCBB.2016.2642107.
+T. He, and K.C.C. Chan, "Evolutionary Graph Clustering for Protein Complex Identification," IEEE/ACM Transactions on Computational Biology and Bioinformatics, vol. 15, no. 3, pp. 892-904, 2018.
 
 How to use EGCPI to detect protein complexes in the PPI network
 Before running the executable file (EGCPI_v1.0.jar), please prepare the processed PPI network data, and file of configurations, and put them into the same directory where the executable file is.
@@ -17,6 +17,14 @@ The file of configurations (EGCPI.config) is used to set the parameters before E
 Identifying Protein complexes
 
 After doulble clicking the .jar file, a simple graphical interface will be shown to the user. All that one needs to do is to click the "start detection" button and wait for the results (this won't take a long time). After the detection is finished, EGCPI will save all the deteced protein complexes int a file which is named as Cluster.txt in default and save all the information on the the execution incuding fitness value, running time, etc into a log file named as log.txt in default. The user may make use them for their own experiments accordingly.
+
+Evaluating the discovered protein complexes using ground-truth ones
+
+For biogrid datasets and DIP-Scere, please visit http://wodaklab.org/cyc2008/ (CYC2008) or http://mips.helmholtz-muenchen.de/proj/ppi/ (MIPS:CYGD) to collect the ground-truth protein complexes;
+For DIP-Hsapi dataset, please visit http://mips.helmholtz-muenchen.de/corum/ to collect the ground-truth protein complexes.
+
+ID mapping
+It should be noted that there are several ID systems used by the PPI network datasets and ground-truth data databases. To obtain the correct results related to the performance of protein complex discovery, one is recommended to use a unified ID system via remapping. The tools for ID transforming are online available. Please try to search one you like.
 
 Notice: This software is permitted to use only for research and non-commercial activities. If you have any question, please feel free to contact us via tiantian.he@outlook.com.
 
