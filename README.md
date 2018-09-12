@@ -10,7 +10,7 @@ The processed PPI network data contain the following files:
 3)adjaceny matrix of the PPI network (default: graph.csv)
 4)network information (default: statistics)
 5)protein information (default: vertex)
-In order to help users to transform the PPI network data into the compatible format that is used by EGCPI. A example of processed PPI network data obtained from the Collins data set has been offered together with the executable file. Please check them for detail. To collect all the datasets used in the above paper, please go to .\PPI Datasets to download them.
+In order to help users to transform the PPI network data into the compatible format that is used by EGCPI. A example of processed PPI network data obtained from the Collins data set has been offered together with the executable file. Please check them for detail. To collect all the datasets used in the above paper, please go to .\PPI-Datasets to download them.
 
 The file of configurations (EGCPI.config) is used to set the parameters before EGCPI runs. A default setting which may ensure EGCPI perform robustly is offered together with the executable file. The format of the file can be checked in GCPI.config. And the users may configure them accordingly. For most of the case, the users can adjust Lambda (ranges from 0 to 1) and ovMax (ranges from 0 to 1) to obtain different results. As other settings, they bring a limited impact on the results of identified protein complexes.
 
