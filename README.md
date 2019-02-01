@@ -18,14 +18,6 @@ Identifying Protein complexes
 
 After doulble clicking the .jar file, a simple graphical interface will be shown to the user. All that one needs to do is to click the "start detection" button and wait for the results (this won't take a long time). After the detection is finished, EGCPI will save all the deteced protein complexes int a file which is named as Cluster.txt in default and save all the information on the the execution incuding fitness value, running time, etc into a log file named as log.txt in default. The user may make use them for their own experiments accordingly.
 
-Evaluating the discovered protein complexes using ground-truth ones
-
-For biogrid datasets and DIP-Scere, please visit http://wodaklab.org/cyc2008/ (CYC2008) or http://mips.helmholtz-muenchen.de/proj/ppi/ (MIPS:CYGD) to collect the ground-truth protein complexes;
-For DIP-Hsapi dataset, please visit http://mips.helmholtz-muenchen.de/corum/ to collect the ground-truth protein complexes.
-
-ID mapping
-It should be noted that there are several ID systems used by the PPI network datasets and ground-truth data databases. To obtain the correct results related to the performance of protein complex discovery, one is recommended to use a unified ID system via remapping. The tools for ID transforming are online available. Please try to search one you like.
-
 Notice: This software is permitted to use only for research and non-commercial activities. If you have any question, please feel free to contact us via tiantian.he@outlook.com.
 
 At last, thanks very much for using EGCPI.
